@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>ĐỀ TÀI 35</title>
+<style>
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+table {
+  font-size: 45px;
+}
+</style>
+</head>
+
+<body bgcolor="#C7C1FF">
+<div class="topnav">
+  <a href="Home.html">Trang chủ</a>
+  <a href="AI.html">Sơ lược về AI</a>
+  <a href="AI_in_Real_Life.html">AI trong thực tế</a>
+  <a href="Watson.html">Watson</a>
+  <a href="Thành_tựu_của_Watson.html">Thành tựu của Watson</a>
+  <a href="Khó khăn thách thức.html">Khó khăn thách thức</a>
+  <a href="Hướng chuyển mình.html">Hướng chuyển mình</a>
+</div>
+    <font size="7"><p align="center" style="color:blue;">Thông số kỹ thuật của siêu máy tính Watson</p></font>
+    <font size="5"><ul type="disc"  align="center">
+                   <figure>
+                        <img src="ibm.jpg" width="800px" height="600px" class="center">
+                   </figure>
+         <li>Khi nhắc tới trí thông minh, chúng ta phải nhắc đến bộ não, với Watson, trí thông minh này có tới 90 bộ não với tổng vốn đầu<br>
+           tư lên tới 3 triệu dollar. Watson có 90 server Power 750: mỗi máy chủ có 4 socket, tức 32 lõi, tổng cộng là 2880 cores.<br><br>
+         <li><h2>Lõi xử lý Power7: </h2>
+                   <figure>
+                        <img src="power7.jpg" width="400px" height="240px" class="center"  >
+                   </figure>
+         <li><p>Power7 là là bộ vi xử lý nhanh nhất thế giới, với dòng chip xử lý mới này, IBM đã chính thức trở thành nhà cung cấp máy chủ có thế hệ chip nhanh<br>
+                nhất thế giới cho đến thời điểm hiện tại.Power7 có khả năng thực hiện gấp 2 lần so với hệ thống Power6 tiền nhiệm và có số lõi nhiều gấp 4 lần so với sản phẩm Power6.<br><br>
+                Mạnh hơn nhưng Power7 lại sử dụng điện năng tiết kiệm hơn 4 lần. Đặc biệt, hệ thống Power7 còn được trang bị công nghệ TurboCore cho phép người dùng ép xung các<br>
+               lõi đang hoạt động để tăng tốc độ thực hiện. Hệ thống sẽ hoạt động trên các hệ điều hành gồm AIX và Linux và tương thích với cả hệ thống sử dụng cho Power6 hiện nay.<br>
+               Power 7 có 8 nhân xử lý, mỗi nhân có thể chạy 4 luồng và thực hiện 32 tác vụ trong cùng một thời điểm. Sản phẩm được sản xuất trên công nghệ 45 nm, xung nhịp từ 3,0 đến 4,14 GHz.<br><br>
+                          Chip cũng được chế tạo sử dụng công nghệ xử lý 45-nm. Hãng cũng cải thiện cấp độ nhớ nên chip mới có thể xử lý nhiều tác vụ với tốc độ nhanh hơn.</p><br><br>
+                      <figure>
+                           < img src="power72.jpg" width="400px" height="240px" class="center">
+                      </figure>
+         <li><h2>Kích thước của bộ não Watson: </h2>
+                      <figure>
+                            <img src="rack.jpg" width="400px" height="240px" class="center">
+                            <img src="rack1.png" width="400px" height="240px" class="center">
+                      </figure>
+                <p>Kích thước của bộ não Watson rất lớn, 10 giá đỡ IBM POWER 750 Server bao gồm server, networking, shared disk system, cluster controller</p>
+         <li><h2>Tốc độ xử lý của IBM Watson: </h2> 
+               <p>có thể xử lý lên tới 80 TeraFLOPS, 80.000.000.000.000 phép tính trên giây,xử lý 500 GB/giây, <br>
+                 tương đương 1 triệu quyển sách mỗi giây. Đứng thứ 94 trong danh sách TOP 500 supercomputer list tháng 6/2011</p>
+        <li><h2>Thông số phần cứng: </h2>
+                <p><ul type="circle"><h3>16TB RAM</h3>1 máy tính tốt bình thường chỉ có 0.007TB RAM=8Gb RAM</p>
+                	<li>Siêu máy tính zEnterprise Business Class chỉ có 1.4 TB RAM
+               		<li>Siêu máy tính zEnterprise Enterprise Class chỉ có 3GB RAM
+               		<li>1TB có thể lưu trữ 17000 giờ nhạc hay 708 ngày nghe nhạc liên tục ~ 2 năm.
+               		<li>Watson có thể lưu trữ 5,1 triệu bức ảnh HD</ul>
+               		<li>Data được lưu trực tiếp ở RAM vì xử lý thông tin có độ trễ thấp</p>
+               <p><h3>15x10Gb ethernet network</h3>Mỗi ethernet network có thể cho phép 10 tỷ bit dữ liệu truyền tải 1 giây.</p>
+                  Watson là 1 máy tính độc lập, không kết nối Internet, nhưng phải dịch chuyển khối lượng dự liệu lớn giữa các máy con với độ trễ cực thấp.</p><br><br>
+</ul></font>
+</body>
+</html>
